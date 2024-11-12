@@ -84,3 +84,7 @@ def subscribe(request):
             form.save()
     return redirect('home')  
 
+
+def hello():
+    print("Hello")
+
